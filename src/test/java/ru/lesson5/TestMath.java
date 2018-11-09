@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static ru.lesson5.Math.*;
 
-public class TestClass {
+public class TestMath {
     @Test
     public void testRootPositiveNumber() {
         assertEquals("Wrong answer!", root(9), (double) 3, 0);
